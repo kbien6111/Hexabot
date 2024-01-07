@@ -1,6 +1,7 @@
 *.sh
 *.class
-node_modules/
+/node_modules/
+.env
 package-lock.json
 0x3/credentials/cookies/*.json
 temp/*.png
