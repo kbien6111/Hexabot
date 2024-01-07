@@ -1,10 +1,14 @@
 {
-  "name": "Hexabot",
+  "name": "vercel-testing",
   "version": "1.0.0",
-  "description": "Hexabot is a Facebook Messenger bot designed to assist students with various features, including AI-powered responses, file searches, music and video searches, and more. The bot is built using the fca-unofficial library and integrates with APIs to provide a wide range of capabilities.",
+  "description": "node express testing",
   "main": "index.js",
+  "engines": {
+    "node": "18.x"
+  },
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "AI",
